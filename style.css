@@ -1,0 +1,240 @@
+/* Importar la fuente de Google */
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100&display=swap');
+
+/* Estilos generales */
+
+
+.container {
+    width: 90%; /* Utilizamos un porcentaje más alto para adaptar el contenedor a distintos tamaños de pantalla */
+    max-width: 1200px; /* Limitamos el ancho máximo del contenedor para pantallas muy grandes */
+    margin: 0 auto;
+}
+
+/* Estilo para el contenedor del navbar */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para el enlace del logo */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff; /* Color del texto del logo */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+/* Estilo para el botón del navbar */
+.navbar-toggler {
+    border: none;
+    outline: none;
+    background-color: transparent; /* Color de fondo transparente */
+}
+
+/* Estilo para el icono del botón del navbar */
+.navbar-toggler-icon {
+    background-color: #ffffff; /* Color del icono del botón */
+}
+
+/* Estilo para los elementos del menú */
+.navbar-nav .nav-item {
+    margin-right: 20px; /* Espacio entre elementos del menú */
+}
+
+/* Estilo para los enlaces del menú */
+.navbar-nav .nav-link {
+    font-size: 18px;
+    color: #333; /* Color del texto del menú */
+    transition: color 0.3s ease; /* Transición suave del color al pasar el ratón */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+/* Estilo para los enlaces del menú al pasar el ratón */
+.navbar-nav .nav-link:hover {
+    color: #ff6b6b; /* Cambio de color al pasar el ratón */
+}
+
+
+
+/* Encabezado */
+header {
+    background-color: #f80909; /* Fondo rojo */
+    color: #ffffff; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+    background-image: url(imagenes/logo\ club\ almacen\ blanco\ sin\ fondo.png); /* Corregida la ruta de la imagen */
+    background-repeat: no-repeat;
+    background-position: center; /* Corregida la posición del fondo */
+    background-size: 40%; /* Tamaño del fondo ajustado */
+    height: 400px; /* Altura del encabezado ajustada */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #fffefe; /* Color de fondo */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    margin: 0 auto;
+
+}
+
+.btn:hover {
+    background-color: #d10707; /* Color de fondo al pasar el ratón */
+}
+
+.banner-button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #ff0004; /* Color de fondo inicial */
+    border: none;
+    border-radius: 50px; /* Botón circular */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 10px 14px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrar texto */
+    margin-left: 25%;
+    margin-top: 50%;
+}
+
+.banner-button:hover {
+    background-color: #ff050593; /* Color de fondo al pasar el ratón */
+    transform: scale(1.20); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0px 8px 20px rgba(247, 246, 246, 0.2), 0px 0px 20px rgba(248, 247, 248, 0.5); /* Sombra más pronunciada e iluminación */
+}
+
+
+
+.btn-pulse {
+    animation: pulse 1s infinite alternate; /* Animación de latido */
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+}
+
+
+
+body {
+    margin: 0; /* Quita el margen predeterminado del cuerpo */
+    padding: 0; /* Quita el padding predeterminado del cuerpo */
+    font-family: Arial, sans-serif; /* Establece la familia de fuentes predeterminada */
+}
+
+
+
+
+.btn-a:hover {
+    background-color: #ffffff; /* Fondo rojo */
+    color: #ffffff; /* Texto blanco */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Media queries para dispositivos móviles */
+
+
+    .menu .logo {
+        font-size: 1.5em;
+    }
+
+    .banner-text h1 {
+        font-size: 2.5em;
+    }
+
+    .banner-text p {
+        font-size: 1.2em;
+    }
+
+    .btn-a {
+        padding: 0.8em 1.5em;
+    }
+
+
+element.style {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+    border-radius: 20px;
+
+.template-section {
+    background-color: #ffffff;
+    border-radius: 42px;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+* {
+    box-sizing: border-box;
+}
+hoja de estilo de user-agent
+div {
+    display: block;
+}
+
+/* Estilos para el carrusel y los botones */
+.carousel-item {
+    text-align: center; /* Centra los botones */
+  }
+  
+  .button {
+    display: inline-block;
+    margin: 5px; /* Espacio entre los botones */
+    padding: 0px; /* Añade espacio interno a los botones */
+   
+    border-radius: 1px; /* Añade esquinas redondeadas */
+  }
+  
+  .button img {
+    max-width: 90%; /* Ajusta el tamaño de las imágenes */
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    color: #ff0000; /* Color de las flechas */
+    font-size: 2rem; /* Tamaño de fuente de las flechas */
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #f50000; /* Color de fondo de las flechas */
+  }
+  
+  .carousel-control-prev:hover, .carousel-control-next:hover {
+    color: #ffffff; /* Cambia el color al pasar el mouse sobre las flechas */
+  }
+
+  
+  /* Efecto para dispositivos táctiles */
+  @media (hover: none) {
+    .button:hover {
+      transform: none; /* Restablecer el tamaño cuando se toca en dispositivos táctiles */
+    }       
+
+
+
+
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    
+    
+    
+    }
+    
